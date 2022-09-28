@@ -1,19 +1,9 @@
-namespace Areas {
+///<reference path="geometriaCirc.ts"/>
+///<reference path="geometriaRect.ts"/>
 
-    const PI = 3.14
+// const PI = 2.99
 
-    export function areaCircunferencia(raio: number): number {
-        return PI * Math.pow(raio, 2)
-    }
+console.log(Geometria.Area.circunferencia(10))
+console.log(Geometria.Area.retangulo(12, 20))
 
-    export function areaRetangulo(base: number, altura: number): number {
-        return base * altura
-    }
-}
-
-const PI = 2.99
-
-console.log(Areas.areaCircunferencia(10))
-console.log(Areas.areaRetangulo(10, 20))
-
-console.log(PI)
+// console.log(PI)

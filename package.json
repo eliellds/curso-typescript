@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/eliellds/curso-typescript#readme",
   "dependencies": {
-    "live-server": "^1.2.2"
+    "@types/node": "^18.7.23",
+    "live-server": "^1.2.2",
+    "systemjs": "^0.21.6"
   }
 }
